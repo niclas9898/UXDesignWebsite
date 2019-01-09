@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+		
+		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="navbarSticky.js" async></script>
+		
+        <title>Mischkultur</title>
+        <link rel="stylesheet" type="text/css" href="UX.css">
+		
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Muli');
+			@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+		</style>
+	</head>
+   
+    <body>
+    	<section id="landingpage">
+    		<p id="t1">Mischkultur</p>
+    		<p id="t2">Misch doch mit!</p>
+    		<div id="down">
+    			<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/ARROW_BOTTOM_ORANGE.svg" alt="down" width="80px" height="80px">
+    		</div>
+    		<div id="downline"></div>
+    	</section>
+    
+		<header>
+			<div id="navbar">
+			
+			<a href="#home">Home <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOME_BLUE.svg" alt="Home" width="50px" height="50px"></a>
+			<a href="#news">News <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/NEWSPAPER_BLUE.svg" alt="News" width="50px" height="50px"></a>
+			<a href="#charity">Werde aktiv <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_help_1334455.svg" alt="Werde aktiv" width="50px" height="50px"></a>
+			<a href="#submitpage">Einsendungen <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_write_196302.svg" alt="Einsendungen" width="50px" height="50px"></a>  
+				
+			<!--
+				<div class="navbar" id="home">
+					
+				</div>
+				<div class="navbar" id="world">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/GLOBUS_BLUE.svg" alt="Weltkarte" width="50px" height="50px">
+				</div>
+				<div class="navbar" id="news">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/NEWSPAPER_BLUE.svg" alt="News" width="50px" height="50px">
+				</div>
+				<div class="navbar" id="active">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_help_1334455.svg" alt="Werde aktiv" width="50px" height="50px">
+				</div>
+				<div class="navbar" id="submitions">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_write_196302.svg" alt="Einsendungen" width="50px" height="50px">
+				</div> -->
+			</div>
+		</header>
+		
+		<section id="maps" class="infosection">
+		
+			<p id="mapsIcon">
+			
+				<a href="#" id="map-einblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOURGLASS_BLUE.svg" alt="ZuZeitkarte"> </a>
+				<a href="#" id="map-ausblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/BOOK_BLUE.svg" alt="ZuPersonenkarte"> </a>
+			
+			</p>
+			
+			<div id="map">
+			
+				<h2> Personenkarte </h2> <!-- nur zum testen Text kann später weg. -->
+				<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Personenkarte" height="550px" width="950px">
+				
+			</div>
+			
+			<div id="map2">
+			
+				<h2> Zeitkarte </h2> <!-- nur zum testen Text kann später weg. -->
+				<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Zeitkarte" height="550px" width="950px">
+				
+			</div>
+			
+			
+			<div class="slider">
+			
+				<input type="range" min="1" max="2019" value="2018" class="slider" id="myRange">
+				<p>Year: <span id="vorschau"></span></p>
+				
+			</div>
+			
+		</section>
+		
+		<!--<section id="maps" class="infosection">
+			<section id="map1">
+				<div id="zzk" class="switch">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOURGLASS_BLUE.svg" alt="ZuZeitkarte">
+				</div>
+				<div class="map">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Personenkarte" height="550px" width="950px">
+				</div>
+			</section>
+			
+			<section id="map2">
+				<div id="zpk" class="switch">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/BOOK_BLUE.svg" alt="ZuPersonenkarte">
+				</div>
+				<div class="map">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Zeitkarte" height="550px" width="950px">
+				</div>
+			</section>
+		</section> -->
+		
+		<section class="infosection">
+			<div id="memory">
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front1</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front2</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front3</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front4</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front5</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front6</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front7</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>
+				<div class="flip-card">
+					<div class="flip-card-inner">
+						<div class="flip-card-front">
+							<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
+							<h1>Info Title Front8</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+						<div class="flip-card-back">
+							<h1>Info Title Back</h1> 
+							<p>info</p> 
+							<p>more info</p>
+						</div>
+					</div>
+				</div>	
+		</section>
+		
+		<section id="news" class="infosection">
+			<p>Neuigkeiten</p>
+			<div id="newsbox"></div>
+		</section>
+		
+		<section id="charity" class="infosection">
+			<p>Werde aktiv!</p>
+			<div id="orgabox"></div>
+		</section>
+		
+		<section id="submitpage" class="infosection">
+			<div id="eingabe">
+				<p id="submittext">Erzähle deine Geschichte!</p>
+				<input name="Name" type="text" id="name"><br>
+				<textarea name="message" rows="20" cols="100" id="text">
+					Teile deine Erfahrungen!
+				</textarea><br>
+				<button type="submit">Abschicken</button>
+			</div>
+		</section>
+
+		<div id="footer">
+				<div class="column" id="c1">
+					<p>Über uns</p>
+					<p>Impressum</p>
+				</div>
+				<div class="column" id="c2">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/INSTA_BLUE.svg" alt="Instagram">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/FACEBOOK_BLUE.svg" alt="Facebook">
+					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/TWITTER_BLUE.svg" alt="Twitter">
+				</div>
+				<div class="column" id="c3">
+					<p>Quellen</p>
+					<p>Kontakt</p>
+				</div>
+		</div>		
+
+
+		<script>
+			var slider = document.getElementById("myRange");
+			var output = document.getElementById("vorschau");
+			
+			output.innerHTML = slider.value;
+
+			slider.oninput = function() 
+			{
+				output.innerHTML = this.value;
+			}
+			
+		</script>
+			
+		<script>
+			$(document).ready(function()
+			{
+				$('#map-einblenden').click(function()
+				{
+					$('#map2').show();
+					$('#map').hide();
+				})
+				$('#map-ausblenden').click(function()
+				{
+					$('#map2').hide();
+					$('#map').show();
+				})
+			});
+		</script>		
+    </body>
+</html>

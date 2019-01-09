@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="ARROW_BOTTOM_ORANGE.svg"
+   inkscape:export-filename="C:\Users\Niclas\Documents\Studium\2. Semester\UX\icons\png\64px\ARROW_BOTTOM_BLUE.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="24.252694"
+     inkscape:cy="37.982146"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="2160"
+     inkscape:window-height="1346"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-280.06665)">
+    <g
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision;stroke:none;stroke-opacity:1;fill:#ddb00d;fill-opacity:1"
+       id="g857"
+       transform="matrix(7.2472578e-4,0,0,7.2472578e-4,2.4434377,286.15976)">
+      <g
+         id="g839"
+         style="stroke:none;stroke-opacity:1;fill:#ddb00d;fill-opacity:1">
+        <path
+           id="path837"
+           d="M 194,1131 C -65,873 -65,453 194,194 453,-65 873,-65 1131,194 L 8491,7554 15850,194 c 259,-259 679,-259 938,0 258,259 258,679 0,937 L 8959,8959 c -258,259 -678,259 -937,0 z"
+           class="fil0"
+           inkscape:connector-curvature="0"
+           style="stroke:none;stroke-opacity:1;fill:#ddb00d;fill-opacity:1" />
+      </g>
+      <text
+         id="text841"
+         font-weight="bold"
+         font-size="5px"
+         y="9168"
+         x="0"
+         style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#ddb00d;stroke:none;stroke-opacity:1;fill-opacity:1">Created by Ioannis Malikoutsakis</text>
+      <text
+         id="text843"
+         font-weight="bold"
+         font-size="5px"
+         y="9173"
+         x="0"
+         style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#ddb00d;stroke:none;stroke-opacity:1;fill-opacity:1">from the Noun Project</text>
+    </g>
+  </g>
+</svg>
