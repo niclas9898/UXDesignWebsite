@@ -10,33 +10,42 @@ body {
 }
 
 section {
-	height: 470px;
 	border-bottom: thin solid;
 	border-width: 2px;
 	border-color: #0c2659ff;
 }
 
 p {
-	font-size: 1.8em;
+	font-size: 1.3em;
 	font-color: #0c2659ff;
-	margin-top: -10px;
+	margin-top: 0.5%;;
 }
+
 
 .infosection {
 	padding: 50px;	
 }
 
+h2 {
+	font-size: 1.6em;
+	font-color: #0c2659ff;
+	margin-top: 1.5%;
+	margin-bottom: 2.5%;
+
+}
 
 /* Homepage */ 
 
 #landingpage {
-	font-family: 'Amatic SC', cursive;
-	background-image: url(https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/achievement-adult-aerial-1122403.jpg);
+	font-family: 'Gloria Hallelujah', cursive;
+	background-image: url(https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/Papagei_1.png);
+	background-size: 45%;
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #633d17;
-	height: 650px;
+	background-color: #84c7ff;
+	background-width: 65%;
 	margin-top: -2%;
+	height: 650px;
+	background-position: center;
 }
 
 #down {
@@ -58,11 +67,11 @@ p {
 #t1 {
 	margin: 0px;
 	font-size: 98px;
-	padding-top: 215px;
+	padding-top: 10%;
 	text-align: center;
 	color: #fff714;
 	font-weight: bold;
-	text-shadow: 3px 3px #ffffff;
+	text-shadow: 3px 3px #baac1a;
 }
 
 #t2 {
@@ -72,7 +81,7 @@ p {
 	text-align: center;
 	color: #fff714;
 	font-weight: bold;
-	text-shadow: 3px 3px #ffffff;
+	text-shadow: 3px 3px #baac1a;
 }
 
 
@@ -90,7 +99,8 @@ p {
   border-width: 2px;
   box-shadow: 0px 10px 11px -1px rgba(223,228,235,1);
   background-color: white;
-  z-index: 3;
+  z-index: 6;
+  width: 100%;
 }
  
 #navbar a {
@@ -98,6 +108,9 @@ p {
 	float: left;
 	padding-top: -1%;
 	padding-left: 200px;
+	text-decoration: none;
+	margin-bottom: 10%;
+	color: #0c2659ff;
 }
 
 .content {
@@ -114,46 +127,64 @@ p {
   padding-top: 60px;
 }
 
-/*
-.navbar {
-	display: inline;
-	float: left;
-	padding-top: -1%;
-}
-
-#home {
-	margin-right: 1050px;
-}
-
-#navbar {
-	height: 43px;
-	display: block;
-	padding: 1%;
-	padding-top: 0.275%;
-	border-bottom: thin solid;
-	border-color: #0c2659ff;
-	border-width: 2px;
-	box-shadow: 0px 10px 11px -1px rgba(223,228,235,1);
-}
-*/
 
 /* Kartenbereich */
 
-.maps {
-	height: 400px;
-	margin-top: 100px;
+
+#bothmaps {
+	display: inline;
+	height: 100%;
 }
 
-#map1 {
+#map {
+	z-index: 2;
 	border-style: none;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: -7%;
 	background-color: white;
-	margin-bottom: 100px;
+}
+
+#pin {
+	position: absolute;
+	top: 142%;
+	left: 50%;
+}
+
+#geschichte {
+	position: absolute;
+	display: none;
+	background-color: #ddb00dff;
+	border-style: thin solid;
+	border-color: white;
+	top: 130%;
+	left: 53%;
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 200px;
+	width: 450px;
+}
+
+#geschichte > p {
+	font-size: 0.95em;
+	padding: 2%;
+}
+
+#portrait {
+	padding: 2%;
+}
+
+#pin:hover + #geschichte {
+	display: inline;
 }
 
 #map2 {
+	z-index: 0;
 	border-style: none;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: -7%;
 	display:none;
-	margin-bottom: 100px;
 }
 
 .switch {
@@ -163,28 +194,33 @@ p {
 #zzk {
 	position: absolute;
 	top: 735px;
-	margin-top: 100px;
+	z-index: 2;
 }
 
 #zpk {
 	position: absolute;
 	top: 735px;
-	margin-top: 100px;
+	z-index: 0;
 }
 
 .map {
 	position: absolute;
 	top: 700px;
 	left: 220px;
-	margin-bottom: 100px;
+	margin: 0px;
+}
+
+#mapsIcon {
+	padding: 0.2%;
+	width: 15%;
+	margin: none;
+	display: inline;
 }
 
 /* Slider */
 
 .slidecontainer {
-  width: 100%; /* Width of the outside container */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  width: 80%; /* Width of the outside container */
 }
 
 /* The slider itself */
@@ -192,13 +228,12 @@ p {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
-  height: 25px; /* Specified height */
-  background: #d3d3d3; /* Grey background */
+  height: 15px; /* Specified height */
+  background: #ddb00dff; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
   -webkit-transition: .2s; /* 0.2 seconds transition on hover */
   transition: opacity .2s;
-  margin-bottom: 10px;
 }
 
 /* Mouse-over effects */
@@ -212,14 +247,14 @@ p {
   appearance: none;
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+  background: #0c2659ff; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
 
 .slider::-moz-range-thumb {
   width: 25px; /* Set a specific slider handle width */
   height: 25px; /* Slider handle height */
-  background: #4CAF50; /* Green background */
+  background: #0c2659ff; /* Green background */
   cursor: pointer; /* Cursor on hover */
 }
 
@@ -232,8 +267,8 @@ p {
   background-color: transparent;
   width: 205px;
   height: 205px;
-  margin: 10px;
-  margin-top: 300px;
+  margin: 20px;
+  margin-top: 2px;
   perspective: 1000px; 
 }
 
@@ -272,65 +307,62 @@ p {
     transform: rotateY(180deg);
 }
 
-/*
-.memory {
-	display: inline;
-	float: left;
-	width: 205px;
-	height: 205px;
-	margin: 40px;
-	margin-top: 5px;
-	background-color: #ddb00dff;
-	color: #0c2659ff;
-}
-
-.memory2 {
-	display: inline;
-	float: left;
-	width: 205px;
-	height: 205px;
-	margin: 40px;
-	margin-top: 5px;
-	background-color: #0c2659ff;
-	color: #ddb00dff;
-}
-
 #memory {
-	z-index: 2;
-	position: absolute;
-	top: 1310px;
-	left: 250px;
+	height: 430px;
 }
-
-#memorybackside {
-	z-index: 0;
-	position: absolute;
-	top: 1310px;
-	left: 250px;
-}
-*/
 
 /* News */
 
 #newsbox {
-	width: 800px;
-	height: 400px;
+	width: 70%;;
+	height: 450px;
 	border-style: thin solid;
 	border-color: #0c2659ff;
 	background-color: #ddb00dff;
-	margin-top: 100px;
+	font-size: 1.1em;
+	overflow: scroll;
+	overflow-x: hidden;
 }
+
+.newstext {
+	width: 90%;
+	font-size: 1.2em;
+}
+
+img alt[alt="Platzhalter"] {
+	display: inline;
+}
+.ph {
+	display: inline;
+}
+
+
+.artikel {
+	padding: 2%;
+}
+
 
 
 /* Orgabox */
 
 #orgabox {
-	width: 800px;
-	height: 400px;
+	width: 70%;;
+	height: 450px;
 	border-style: thin solid;
 	border-color: #ddb00dff;
 	background-color: #0c2659ff;
-	margin-top: 100px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.newstext2 {
+	width: 90%;
+	font-size: 1.2em;
+	color: #ddb00dff;
+}
+
+div > a {
+	color: white;
 }
 
 /* Einsendungen */
@@ -349,6 +381,17 @@ p {
 	margin-top: -40px;	
 }
 
+#submitbutton {
+	background-color: #0c2659ff;
+	border: none;
+	color: #ddb00dff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.1em;
+}
+
 
 /* Footer */
 
@@ -358,7 +401,7 @@ p {
 }
 
 
-div > p {
+.column > p {
 	font-size: 1.1em;
 	padding-top: 3.5%;
 	width: 38%;
@@ -379,4 +422,31 @@ div > p {
 
 #c2 {
 	width: 30%;
+}
+
+
+/* Responsive Höhe der Sections */
+
+.header-14-sub {
+  position: relative;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  min-height: 500px; /* set default height */
+}
+
+
+@media (max-width: 480px) {
+.header-14-sub {min-height: 350px;}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.header-14-sub {min-height: 550px;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+.header-14-sub { min-height: 750px;}
+}
+
+@media (min-width: 1200px) {
+.header-14-sub {min-height: 1250px;}
 }
