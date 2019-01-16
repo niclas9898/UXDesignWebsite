@@ -9,6 +9,7 @@
 		
         <title>Mischkultur</title>
         <link rel="stylesheet" type="text/css" href="UX.css">
+		<link rel="stylesheet" type="text/css" href="timemap.css">
 		
 		<style>
 			@import url('https://fonts.googleapis.com/css?family=Muli');
@@ -29,82 +30,283 @@
 		<header>
 			<div id="navbar">
 			
-			<a href="#home">Home <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOME_BLUE.svg" alt="Home" width="50px" height="50px"></a>
+			<a href="#maps">Home <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOME_BLUE.svg" alt="Home" width="50px" height="50px"></a>
 			<a href="#news">News <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/NEWSPAPER_BLUE.svg" alt="News" width="50px" height="50px"></a>
 			<a href="#charity">Werde aktiv <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_help_1334455.svg" alt="Werde aktiv" width="50px" height="50px"></a>
 			<a href="#submitpage">Einsendungen <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_write_196302.svg" alt="Einsendungen" width="50px" height="50px"></a>  
-				
-			<!--
-				<div class="navbar" id="home">
-					
-				</div>
-				<div class="navbar" id="world">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/GLOBUS_BLUE.svg" alt="Weltkarte" width="50px" height="50px">
-				</div>
-				<div class="navbar" id="news">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/NEWSPAPER_BLUE.svg" alt="News" width="50px" height="50px">
-				</div>
-				<div class="navbar" id="active">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_help_1334455.svg" alt="Werde aktiv" width="50px" height="50px">
-				</div>
-				<div class="navbar" id="submitions">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/noun_write_196302.svg" alt="Einsendungen" width="50px" height="50px">
-				</div> -->
+			
 			</div>
 		</header>
 		
+	
 		<section id="maps" class="infosection">
 		
 			<p id="mapsIcon">
 			
-				<a href="#" id="map-einblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOURGLASS_BLUE.svg" alt="ZuZeitkarte"> </a>
-				<a href="#" id="map-ausblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/BOOK_BLUE.svg" alt="ZuPersonenkarte"> </a>
-			
+				<a href="#" id="map-einblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOURGLASS_BLUE.svg" alt="ZuZeitkarte"> </a> 
+				<a href="#" id="map-ausblenden"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/BOOK_BLUE.svg" alt="ZuPersonenkarte"> </a> 
+				
 			</p>
 			
 			<div id="map">
 			
+			<div id="Ppin">
+				
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">Tooltip text1 Personenkarte
+						Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et 
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid 
+						ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+						nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
+						</span>
+					</div>
+								
+				</div>
+			
+				<div id="Ppin2">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_ORANGE.svg">
+						<span class="tooltiptext">Tooltip text2 Personenkarte</span>
+					</div>
+	
+				</div>
+				
+				<div id="Ppin3">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_ORANGE.svg">
+						<span class="tooltiptext">Tooltip text3 Personenkarte</span>
+					</div>
+	
+				</div>
+			
+			
 				<h2> Personenkarte </h2> <!-- nur zum testen Text kann später weg. -->
-				<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Personenkarte" height="550px" width="950px">
+				<div id="Pkarte"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Personenkarte" height="550px" width="950px"> </div>
+				
+				
 				
 			</div>
 			
 			<div id="map2">
+			<!-- neu anfang-->		
+					
+				<div id="Zpin1" class="Zpins">
+				
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">2018: Deutschland: <br>
+						65000 Menschen auf einem Anti Rassismus Konzert in Chemnitz 
+						(8)
+						</span>
+					</div>
+								
+				</div>
 			
+				<div id="Zpin2" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_ORANGE.svg">
+						<span class="tooltiptext"> 2017 Deutschland : </br>
+						Bundeskriminalamt zählt insgesamt 2215 Straftaten gegen Geflüchtete
+						Etwa ein Fünftel davon waren Gewaltdelikte
+						(6)
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin3" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">2014 USA: </br>
+						Der Fall von Eric Garner führt zur “Black Lives Matter” Bewegung gegen Polizeigewalt gegen Afroamerikanische US-Bürger
+						Im gleichen Jahr gab es einen weiteren Vorfall (eigentlich mehrere, auch in den Folgejahren bis Heute) der den Slogan “Hands Up, don`t shoot” zur Folge hatte
+						
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin4" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_ORANGE.svg">
+						<span class="tooltiptext">2014 USA: </br>
+						Der Fall von Eric Garner führt zur “Black Lives Matter” Bewegung gegen Polizeigewalt gegen Afroamerikanische US-Bürger</br>
+						Im gleichen Jahr gab es einen weiteren Vorfall (eigentlich mehrere, auch in den Folgejahren bis Heute) der den Slogan “Hands Up, don`t shoot” zur Folge hatte
+						
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin5" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">2014-2017: Syrien: </br> Die Organisation “Islamischer Staat” ruft ein Kalifat aus, </br> 
+						wodurch unter anderem die Verfolgung und Tötung von nicht-muslimisch gläubigen Menschen begann. 
+					
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin6"class="Zpins" >
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 2008 USA:</br> Barak Obama wird erster schwarzer US Präsident. 
+
+					
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin7" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">  2005: </br>USA Condoleezza Rice wird als erste schwarze Frau Außenministerin.
+(1)
+					
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin8" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 2001:</br>  Niederlande: Ermöglicht als erstes Land die Ehe für homosexuelle Paare.
+
+					
+					</span>
+					</div>
+	
+				</div>
+				
+				<div id="Zpin9" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 1994-1999 Südafrika Nelson Mandela  der erste schwarze Präsident
+(5)
+					
+					</span>
+					</div>
+				</div>
+					
+					<div id="Zpin10" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 1994 Völkermord in Ruanda. Bis zu 1 Millionen In annähernd 100 Tagen töteten Angehörige der Hutu-Mehrheit etwa 75 Prozent der in Ruanda lebenden Tutsi-Minderheit sowie moderate Hutu, die sich am Völkermord nicht beteiligten oder sich aktiv dagegen einsetzten.
+(17)
+					
+					</span>
+					</div>
+				</div>
+					
+					<div id="Zpin11" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 1993 Nelson Mandela erhält den Friedensnobelpreis
+(5)
+					
+					</span>
+					</div>
+				</div>
+					
+					<div id="Zpin12" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">  1992: Ein Gericht in Los Angeles spricht vier Polizisten frei, die der Misshandlung des Afroamerikaners Rodney King beschuldigt worden waren. Bei anschließenden Unruhen in Los Angeles sterben mindestens 59 Menschen.(1)
+					
+					</span>
+					</div>
+				</div>
+					
+					<div id="Zpin13" class="Zpins">
+								
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext"> 1990-2011 NSU Morde in Deutschland
+					
+					</span>
+					</div>
+				</div>
+				
+				
+				
+	
+				
+				
+				<!-- HH -->
+				<div id="map-holder">
+				
 				<h2> Zeitkarte </h2> <!-- nur zum testen Text kann später weg. -->
-				<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Zeitkarte" height="550px" width="950px">
+				<div id="karte1"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth2018_.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte2"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth2000.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte3"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1990.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+			
+				<div id="karte4"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1980.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte5"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1970.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+					
+				<div id="karte6"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1960.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte7"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1950.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte8"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1940.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte9"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1930.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte10"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1920.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte11"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1910.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte12"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1900.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte13"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1890.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte14"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1880.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte15"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1850.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte16"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1800.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte17"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1700.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte18"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1600.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte19"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1500.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte20"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1400.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte21"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth1000.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				<div id="karte22"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth500.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				
+				<div id="karte23"> <img src="https://sftp.hs-furtwangen.de/~christni/ux/earth0.png" alt="Zeitkarte" height="550px" width="950px"> </div>
+				
+				
+				</div>
+				<div class="slider">
+			
+					<input type="range" min="400" max="2019" value="2018" class="slider" id="myRange">
+					<p>Year: <span id="vorschau"></span></p>
+				
+				</div>
 				
 			</div>
 			
-			
-			<div class="slider">
-			
-				<input type="range" min="1" max="2019" value="2018" class="slider" id="myRange">
-				<p>Year: <span id="vorschau"></span></p>
+			 <!-- <div id="map3">			
+				<div id="pin">
 				
-			</div>
+					<div class="tooltip"> <img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/PIN_BLUE.svg">
+						<span class="tooltiptext">Tooltip text1
+						Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et 
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid 
+						ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+						nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit
+						anim id est laborum.
+						</span>
+					</div>
+								
+				</div>
+							
+				<h2> Zeitkarte </h2> <!-- nur zum testen Text kann später weg.
+				<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2000_.png" alt="Zeitkarte" height="550px" width="950px">
+				
+				<div class="slider">
+			
+					<input type="range" min="1980" max="2019" value="2018" class="slider" id="myRange">
+					<p>Year: <span id="vorschau"></span></p>
+				
+				</div>
+				
+			</div> -->
+			
 			
 		</section>
 		
-		<!--<section id="maps" class="infosection">
-			<section id="map1">
-				<div id="zzk" class="switch">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/HOURGLASS_BLUE.svg" alt="ZuZeitkarte">
-				</div>
-				<div class="map">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Personenkarte" height="550px" width="950px">
-				</div>
-			</section>
-			
-			<section id="map2">
-				<div id="zpk" class="switch">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/BOOK_BLUE.svg" alt="ZuPersonenkarte">
-				</div>
-				<div class="map">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/earth2018_.png" alt="Zeitkarte" height="550px" width="950px">
-				</div>
-			</section>
-		</section> -->
 		
 		<section class="infosection">
 			<div id="memory">
@@ -113,14 +315,11 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front1</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist Nationalismus"</h1> 
+								
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Nationalismus ist die liebe nach dem eigenem Land. </p>
 							</div>
 						</div>
 					</div>
@@ -128,14 +327,11 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front2</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist Antisemitismus?</h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Antisemitismus ist Feindschaft gegen Juden. Wer Antisemit ist, denkt, dass Juden böse
+Menschen sind. Antisemiten sind der Meinung dass das Jude sein im Blut steckt und vererbbar ist.</p>
 							</div>
 						</div>
 					</div>
@@ -143,14 +339,10 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front3</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist Asyl?</h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Asyl bedeutet, wenn jemand in einem anderen Land einen sicheren Ort für sich und seine Familie findet. Das Wort Asyl kommt aus der griechischen Sprache und heißt übersetzt so viel wie „sicher“ oder „nicht von Räubern überfallen werden“.</p> </p>
 							</div>
 						</div>
 					</div>
@@ -159,14 +351,10 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front4</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist konservativ? </h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Wenn man jemanden als konservativ bezeichnet, meint man damit, dass der- oder diejenige eher an alten Traditionen, Werten und Überzeugungen festhält und neuen Entwicklungen kritischer gegenüber steht. </p>
 							</div>
 						</div>
 					</div>
@@ -176,14 +364,10 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front5</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist Patriotismus?</h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Patriotismus ist die Liebe zur Heimat. Es ist eine gefühlsmäßige Bindung an die kulturellen und geschichtlichen Werte und Leistungen.</p>
 							</div>
 						</div>
 					</div>
@@ -191,14 +375,10 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front6</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist Rassismus</h1> 
 							</div>
-							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+							<div class="flip-card-back"> 
+								<p>Rassismus ist eine Ideologie, nach der Menschen aufgrund weniger äußerlicher Merkmale als „Rasse“ beurteilt werden. Zum Beispiel Merkmale wie Hautfarbe, Körpergröße oder Sprache  </p>
 							</div>
 						</div>
 					</div>
@@ -206,14 +386,10 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front7</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist politisch "rechts"?</h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Politisch "rechts" fängt bei konservativem denken an und geht bis zu patriotisch, nationalistisch und nationalsozialistisch. Es wird von einer Ungleichjeit der Menschen ausgegangen.</p>
 							</div>
 						</div>
 					</div>
@@ -221,67 +397,28 @@
 						<div class="flip-card-inner">
 							<div class="flip-card-front">
 								<!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;"> -->
-								<h1>Info Title Front8</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<h1>Was ist politisch "links"?</h1> 
 							</div>
 							<div class="flip-card-back">
-								<h1>Info Title Back</h1> 
-								<p>info</p> 
-								<p>more info</p>
+								<p>Unter linker Politik wird allgemein die Anstrebung sozialer Gleichheit verstanden. Dabei steht die Freiheit der Allgemeinheit über der individuellen.</p>
 							</div>
 						</div>
 					</div>	
 				</div>	
 		</section>
 		
-		<section id="news" class="infosection">
-			<h2>Neuigkeiten</h2>
-			<div id="newsbox">
-				<div class="artikel">
-					<p class="newstext">07.01.2019 Tagesspiegel </br>
-					Eine ZDF-Reporterin erhielt Mord- und Vergewaltigungswünsche, nachdem sie es gewagt hat "Nazis raus!" zu tweeten.
-					</p> 
-					<a href="https://www.tagesspiegel.de/themen/reportage/hass-im-internet-ein-nazis-raus-und-seine-folgen/23834704.html?fbclid=IwAR0QYYOvnmVNzkwfOLyGnwuSLQwppMHHlWWZlT1V2VCpmeSElBkBh0zpN4M
-					">Klicke hier um den ganzen Artikel zu lesen</a>
-				</div>
-				<div class="artikel">
-					<p class="newstext">02.01.2018 Spiegel </br>
-					Ein 50 Jähriger versuchte mit seinem Auto in der Silvesternacht geziehlt Menschengruppen, die äußerlich wie Migranten aussahen, zu überfahren.
-					</p> 
-					<a href="http://www.spiegel.de/panorama/justiz/bottrop-und-essen-auto-attacke-zahl-der-verletzten-steigt-a-1246076.html
-					">Klicke hier um den ganzen Artikel zu lesen</a>
-				</div>
-				<div class="artikel">
-					<p class="newstext">17.12.2018 Spiegel </br>
-					“Das hessische Landeskriminalamt ermittelt gegen eine mutmaßlich rechtsextreme Zelle der Frankfurter Polizei. Was ist über den Fall bekannt?”
-					</p> 
-					<a href="http://www.spiegel.de/panorama/justiz/frankfurt-mutmassliche-rechtsextreme-zelle-in-der-polizei-was-ueber-den-nsu-2-0-bekannt-ist-a-1244092.html
-					">Klicke hier um den ganzen Artikel zu lesen</a>
-				</div>
-				<div class="artikel">
-					<p class="newstext">6.12.2018 Leipziger Volkszeitung </br>
-					Ein AfD-Sprecher beschwert sich über einen dunkelhäutigen Menschim neuen Rügenwälder-Spot
-					</p> 
-					<a href="http://m.lvz.de/amp/news/Region/Wurzen/AfD-Sprecher-beschwert-sich-ueber-Afrikaner-im-Ruegenwalder-Spot">Klicke hier um den ganzen Artikel zu lesen</a>
-				</div>
-				
-				
-			</div>
-		</section>
-		
 		<section id="charity" class="infosection">
 			<h2>Werde aktiv!</h2>
 			<div id="orgabox">
 				<div class="artikel">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/platzhalter.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
+					<img src="https://webuser.hs-furtwangen.de/~raeschke/UX/Logos%20Organisationen/logoGRkC.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
 					<p class="newstext2">“Gib Rassismus keine Chance” unterstützt viele Projekte gegen Rassismus. Unterstützt Aktionen in Schulen und klärt Alltagsrassismus auf.
 					Zitat  “Kinder und Jugendliche sollen verstehen lernen, was ein rassistischer Vorfall ist - denn Erkennen ist der erste Schritt des Handelns. “
 					</p>
 					<a href="http://www.gib-rassismus-keine-chance.org">Klicke hier um zur Webseite der Organisation zu kommen</a>
 				</div>
 				<div class="artikel">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/platzhalter.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
+					<img src="https://webuser.hs-furtwangen.de/~raeschke/UX/Logos%20Organisationen/logoAgR.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
 					<p class="newstext2"> “Aufstehen gegen Rassismus” startet viele Projekte gegen Rassismus. Vor allem Demos in großen Städten und Aufklärung rund um und gegen die AFD. 
 					</br>
 					“Unsere Alternative heißt Solidarität”  
@@ -289,7 +426,7 @@
 					<a href="https://www.aufstehen-gegen-rassismus.de">Klicke hier um zur Webseite der Organisation zu kommen</a>
 				</div>
 				<div class="artikel">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/platzhalter.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
+					<img src="https://webuser.hs-furtwangen.de/~raeschke/UX/Logos%20Organisationen/logoPA.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
 					<p class="newstext2"> 
 					“Pro Asyl” unterstützt Flüchtlinge und Migranten bei dem Asylverfahren in Deutschland. Zudem untersucht und klärt “Pro Asyl” Menschenrechtsverletzungen auf
 					</br>
@@ -298,7 +435,7 @@
 					<a href="https://www.proasyl.de">Klicke hier um zur Webseite der Organisation zu kommen</a>
 				</div>
 				<div class="artikel">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/platzhalter.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
+					<img src="https://webuser.hs-furtwangen.de/~raeschke/UX/Logos%20Organisationen/logoADH.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
 					<p class="newstext2"> 
 					
 					“Aktion Deutschland Hilft” hat zahlreiche Gebiete auf denen die Organisation hilft. Darunter ist auch die Hilfe für Flüchtlinge Weltweit und in Deutschland. “Deutschland Hilft” sorgt für Schulmaterial, Nahrung und Flüchtlingscamps.
@@ -306,10 +443,10 @@
 					“Wenn schwere Katastrophen die Menschheit erschüttern, leisten wir Nothilfe. Gemeinsam, schnell und koordiniert. “
 
 					</p>
-					<a href="https://www.proasyl.de">Klicke hier um zur Webseite der Organisation zu kommen</a>
+					<a href="https://www.aktion-deutschland-hilft.de">Klicke hier um zur Webseite der Organisation zu kommen</a>
 				</div>
 				<div class="artikel">
-					<img src="https://sftp.hs-furtwangen.de/~arndtcat/EIA1/UXDesign/platzhalter.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
+					<img src="https://webuser.hs-furtwangen.de/~raeschke/UX/Logos%20Organisationen/logoRx.jpg" alt="Platzhalter" height="65px" width="65px" class="ph">
 					<p class="newstext2"> 
 					
 					Bei dem Kauf eines Festival Bands mit der Aufschrift “Stay Human - Support Refugees” werden 70% des Preises an “Deutschland Hilft” gespendet.
@@ -317,10 +454,7 @@
 					</p>
 					<a href="https://www.rauschkomplex.com/product-page/kopie-von-stay-human-support-refugees">Klicke hier um zur Webseite der Organisation zu kommen</a>
 				</div>
-				
-			</div>
-
-		</section>
+		</section>	
 		
 		<section id="submitpage" class="infosection">
 			<div id="eingabe">
@@ -351,6 +485,8 @@
 		</div>		
 
 
+			
+
 		<script>
 			var slider = document.getElementById("myRange");
 			var output = document.getElementById("vorschau");
@@ -359,14 +495,171 @@
 
 			slider.oninput = function() 
 			{
+				// neu anfang
+				
+				val = (this.value);
+				
+				switch (true) {
+  case (val >= 2010 && val <= 2019): 
+  hideMap()
+  hideZpin()
+  $('#karte1').show();
+  $('#Zpin1').show();
+  $('#Zpin2').show();
+  $('#Zpin3').show();
+  $('#Zpin4').show();
+
+  break;
+  case (val >= 2000 && val <= 2009):
+  hideMap()
+  hideZpin()
+    $('#karte2').show();
+  break;
+    case (val >= 1990 && val <= 1999):
+	hideMap()
+	hideZpin()
+    $('#karte3').show();
+  break;
+   case (val >= 1980 && val <= 1989):
+	hideMap()
+	hideZpin()
+    $('#karte4').show();
+  break;
+   case (val >= 1970 && val <= 1979):
+	hideMap()
+	hideZpin()
+    $('#karte5').show();
+  break;
+   case (val >= 1960 && val <= 1969):
+	hideMap()
+	hideZpin()
+    $('#karte6').show();
+  break;
+   case (val >= 1950 && val <= 1959):
+	hideMap()
+	hideZpin()
+    $('#karte7').show();
+  break;
+   case (val >= 1940 && val <= 1949):
+	hideMap()
+	hideZpin()
+    $('#karte8').show();
+  break;
+   case (val >= 1930 && val <= 1939):
+	hideMap()
+	hideZpin()
+    $('#karte9').show();
+  break;
+   case (val >= 1920 && val <= 1929):
+	hideMap()
+	hideZpin()
+    $('#karte10').show();
+  break;
+   case (val >= 1910 && val <= 1919):
+	hideMap()
+	hideZpin()
+    $('#karte11').show();
+  break;
+   case (val >= 1800 && val <= 1909):
+	hideMap()
+	hideZpin()
+    $('#karte12').show();
+  break;
+   case (val >= 1890 && val <= 1899):
+	hideMap()
+	hideZpin()
+    $('#karte13').show();
+  break;
+   case (val >= 1880 && val <= 1889):
+	hideMap()
+	hideZpin()
+    $('#karte14').show();
+  break;
+   case (val >= 1850 && val <= 1879):
+	hideMap()
+	hideZpin()
+    $('#karte15').show();
+  break;
+   case (val >= 1800 && val <= 1849):
+	hideMap()
+	hideZpin()
+    $('#karte16').show();
+  break;
+   case (val >= 1700 && val <= 1799):
+	hideMap()
+	hideZpin()
+    $('#karte17').show();
+  break;
+   case (val >= 1600 && val <= 1699):
+	hideMap()
+	hideZpin()
+    $('#karte18').show();
+  break;
+   case (val >= 1500 && val <= 1599):
+	hideMap()
+	hideZpin()
+    $('#karte19').show();
+  break;
+   case (val >= 1400 && val <= 1499):
+	hideMap()
+	hideZpin()
+    $('#karte20').show();
+  break;
+   case (val >= 1000 && val <= 1399):
+	hideMap()
+	hideZpin()
+    $('#karte21').show();
+  break;
+   case (val >= 500 && val <= 999):
+	hideMap()
+	hideZpin()
+    $('#karte22').show();
+  break;
+   case (val >= 400 && val <= 499):
+	hideMap()
+	hideZpin()
+    $('#karte23').show();
+  break;
+  
+}
+				
+				
+				// neu ende 
+				
 				output.innerHTML = this.value;
 			}
 			
+			function hideMap(){
+			console.log('hide');
+			$( "#map-holder > div" ).each(function() {
+			  $( this ).hide()
+			});
+			}
+			function hideZpin(){
+			console.log('hide');
+			$( ".Zpins > class" ).each(function() {
+			  $( this ).hide()
+			});
+			}
 		</script>
 			
 		<script>
 			$(document).ready(function()
 			{
+			function hideMap(){
+			console.log('hide');
+			$( "#map-holder > div" ).each(function() {
+			  $( this ).hide()
+			});
+			}
+			function hideZpin(){
+			console.log('hide');
+			$( ".Zpins > class" ).each(function() {
+			  $( this ).hide()
+			});
+			}
+			
+			$('#karte1').show();
 				$('#map-einblenden').click(function()
 				{
 					$('#map2').show();
@@ -375,9 +668,11 @@
 				$('#map-ausblenden').click(function()
 				{
 					$('#map2').hide();
+				
 					$('#map').show();
 				})
 			});
-		</script>		
+		</script>
+	
     </body>
 </html>

@@ -34,6 +34,18 @@ h2 {
 
 }
 
+#Quellen
+{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+#quellenListe
+{
+	display:none;
+}
+
+
 /* Homepage */ 
 
 #landingpage {
@@ -174,47 +186,152 @@ h2 {
 	padding: 2%;
 }
 
-#pin:hover + #geschichte {
-	display: inline;
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width:1000px;
+  max-height:100px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*Stecknadeln für Personenkarte*/
+
+#Ppin
+{
+	position: absolute;
+	top: 1189px;
+	left: 612px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+#Ppin2
+{
+	position: absolute;
+	top: 1186px;
+	left: 615px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+#Ppin3
+{
+	position: absolute;
+	top: 1195px;
+	left: 615px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+#Ppin4
+{
+	position: absolute;
+	top: 1126px;
+	left: 726px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+#Ppin5
+{
+	position: absolute;
+	top: 1201px;
+	left: 659px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+#Ppin6
+{
+	position: absolute;
+	top: 1077px;
+	left: 719px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+#Ppin7
+{
+	position: absolute;
+	top: 1175px;
+	left: 543px;
+	margin-bottom: 100px;
+	z-index:2;
+}
+
+
+
+
+/* Kartenbereich */
+
+.maps {
+	height: 400px;
+	margin-top: 100px;
+}
+
+#map1 {
+	border-style: none;
+	background-color: white;
+	margin-bottom: 100px;
 }
 
 #map2 {
-	z-index: 0;
 	border-style: none;
-	width: 60%;
-	margin-left: 20%;
-	margin-top: -7%;
 	display:none;
-}
-
-.switch {
-	display: inline;
-}
-
-#zzk {
-	position: absolute;
-	top: 735px;
-	z-index: 2;
-}
-
-#zpk {
-	position: absolute;
-	top: 735px;
-	z-index: 0;
+	margin-bottom: 100px;
+	z-index:1;
 }
 
 .map {
 	position: absolute;
 	top: 700px;
 	left: 220px;
-	margin: 0px;
+	margin-bottom: 100px;
 }
 
-#mapsIcon {
-	padding: 0.2%;
-	width: 15%;
-	margin: none;
-	display: inline;
+.map2 {
+	position: absolute;
+	top: 700px;
+	left: 220px;
+	margin-bottom: 100px;
 }
 
 /* Slider */
@@ -260,9 +377,6 @@ h2 {
 
 
 /* Memory */
-.flip-card-up{
-	float:down;
-}
 
 .flip-card {
   display: inline;
@@ -308,11 +422,12 @@ h2 {
 	background-color: #0c2659ff;
 	color: #ddb00dff;
     transform: rotateY(180deg);
+	overflow-x: hidden;
+	overflow-Y: scroll;
 }
 
 #memory {
 	height: 430px;
-	display: grid;
 }
 
 /* News */
@@ -449,23 +564,8 @@ div > a {
 
 @media (min-width: 768px) and (max-width: 979px) {
 .header-14-sub { min-height: 750px;}
-
-	
 }
 
 @media (min-width: 1200px) {
 .header-14-sub {min-height: 1250px;}
-}
-
-@media (max-width: 1100px) {
-	#memory {
-		height: 640px;
-		display: block;
-	}
-}
-@media (max-width: 850px) {
-	#memory {
-		height: 960px;
-		display: block;
-	}
 }
